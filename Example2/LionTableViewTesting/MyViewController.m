@@ -10,13 +10,14 @@
 
 @implementation MyViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
++ (id)viewControllerWithDefaultNib {
+	return [[[self alloc] initWithNibName:@"MyViewController" bundle:nil] autorelease];
+}
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Initialization code here.
-    }
-    
+    }    
     return self;
 }
 

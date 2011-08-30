@@ -9,5 +9,6 @@
 @interface LionAutoLayoutTestingAppDelegate : NSObject <NSApplicationDelegate>
 
 @property (nonatomic, assign) IBOutlet NSWindow *window;
+@property (nonatomic, assign) IBOutlet NSView *placeholderView;
 
 @end
