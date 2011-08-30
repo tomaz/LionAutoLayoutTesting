@@ -21,6 +21,10 @@ static BOOL kLargeSizeRequested = YES;
     [super dealloc];
 }
 
+- (void)awakeFromNib {
+	[self removeConstraints:self.constraints];
+}
+
 - (void)setObjectValue:(id)objectValue {
 	[super setObjectValue:objectValue];
 	[self layoutViewsForLargeSize:kLargeSizeRequested animated:NO];
