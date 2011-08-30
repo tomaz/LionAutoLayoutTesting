@@ -1,12 +1,12 @@
 //
-//  LionTableViewTestingAppDelegate.h
+//  LionAutoLayoutTestingAppDelegate.h
 //  LionTableViewTesting
 //
 //  Created by Tomaž Kragelj on 8/28/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-@interface LionTableViewTestingAppDelegate : NSObject <NSApplicationDelegate, NSTableViewDelegate>
+@interface LionAutoLayoutTestingAppDelegate : NSObject <NSApplicationDelegate, NSTableViewDelegate>
 
 - (IBAction)itemsSizeClicked:(id)sender;
 

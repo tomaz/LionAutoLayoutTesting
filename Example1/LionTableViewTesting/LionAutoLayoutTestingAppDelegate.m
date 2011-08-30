@@ -1,5 +1,5 @@
 //
-//  LionTableViewTestingAppDelegate.m
+//  LionAutoLayoutTestingAppDelegate.m
 //  LionTableViewTesting
 //
 //  Created by Tomaž Kragelj on 8/28/11.
@@ -8,9 +8,9 @@
 
 #import "Item.h"
 #import "ItemCellView.h"
-#import "LionTableViewTestingAppDelegate.h"
+#import "LionAutoLayoutTestingAppDelegate.h"
 
-@interface LionTableViewTestingAppDelegate ()
+@interface LionAutoLayoutTestingAppDelegate ()
 
 @property (nonatomic, readonly) NSArray *items;
 @property (nonatomic, assign) BOOL isLargeSizeRequested;
@@ -19,7 +19,7 @@
 
 #pragma mark -
 
-@implementation LionTableViewTestingAppDelegate
+@implementation LionAutoLayoutTestingAppDelegate
 
 @synthesize tableView = _tableView;
 @synthesize window = _window;
