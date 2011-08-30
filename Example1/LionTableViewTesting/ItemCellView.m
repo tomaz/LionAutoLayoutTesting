@@ -22,7 +22,13 @@ static BOOL kLargeSizeRequested = YES;
 }
 
 - (void)awakeFromNib {
+	NSView *iconView = self.imageView;
+	NSDictionary *views = NSDictionaryOfVariableBindings(iconView);
 	[self removeConstraints:self.constraints];
+	
+	// Pin icon 2 pixels from each edge.
+	[self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"|-2-[iconView]" options:0 metrics:nil views:views]];
+	[self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-2-[iconView]-2-|" options:0 metrics:nil views:views]];
 }
 
 - (void)setObjectValue:(id)objectValue {
