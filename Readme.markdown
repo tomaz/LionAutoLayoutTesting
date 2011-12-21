@@ -3,7 +3,10 @@ About
 
 Example projects demonstrating OS X 10.7 Lion auto-layout.
 
-This is companion code for [blog post](http://www.gentlebytes.com/test/2011/09/auto-layout-in-lion/)
+This is companion code for these blog posts:
+
+* Examples 1 and 2: [Auto Layout in Lion](http://www.gentlebytes.com/2011/09/auto-layout-in-lion/)
+* Exampled 3: [Auto Layout and View Animations](http://gentlebytes.com/2011/12/auto-layout-and-view-animations)
 
 The code is provided under MIT license as stated below.
 
